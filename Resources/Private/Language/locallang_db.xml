@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ts_extbaselinks'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_tsextbaselinks_domain_model_link">Link</label>
+			<label index="tx_tsextbaselinks_domain_model_link.title">title</label>
+			<label index="tx_tsextbaselinks_domain_model_link.description">description</label>
+			<label index="tx_tsextbaselinks_domain_model_link.url">url</label>
+			<label index="tx_tsextbaselinks_domain_model_link.mark_dead">mark_dead</label>
+			<label index="tx_tsextbaselinks_domain_model_link.category">category</label>
+			<label index="tx_tsextbaselinks_domain_model_category">Category</label>
+			<label index="tx_tsextbaselinks_domain_model_category.title">title</label>
+			<label index="tx_tsextbaselinks_domain_model_category.description">description</label>
+			<label index="tx_tsextbaselinks_domain_model_category.parent">parent</label>
+			<label index="tx_tsextbaselinks_domain_model_rating">Rating</label>
+			<label index="tx_tsextbaselinks_domain_model_rating.rating">rating</label>
+			<label index="tx_tsextbaselinks_domain_model_rating.comment">comment</label>
+			<label index="tx_tsextbaselinks_domain_model_rating.link">link</label>
+			<label index="tx_tsextbaselinks_domain_model_rating.user">user</label>
+			<label index="tx_tsextbaselinks_domain_model_feuser">FeUser</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark">Bookmark</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark.title">title</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark.comment">comment</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark.public_state">public_state</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark.link">link</label>
+			<label index="tx_tsextbaselinks_domain_model_bookmark.user">user</label>
+		</languageKey>
+	</data>
+</T3locallang>

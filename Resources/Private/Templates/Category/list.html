@@ -1,0 +1,7 @@
+<div id="link-browser">
+	<ul>
+		<f:for each="{categories}" as="category">
+			<li><f:link.action action="list" arguments="{parent: category}">{category.title}</f:link.action></li>
+		</f:for>
+	</ul>
+</div>
