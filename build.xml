@@ -14,7 +14,7 @@
   <mkdir dir="${builddir}/reports/coverage"/>
 
   <!-- PHPUnit -->
-  <exec command="phpunit --log-xml ${builddir}/reports/phpunit.xml  Tests/CategoryTest.php"/>
+  <exec command="phpunit --log-xml ${builddir}/reports/phpunit.xml  trunk/Tests/CategoryTest.php"/>
 
 </target>
 </project>
