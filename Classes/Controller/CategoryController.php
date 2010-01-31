@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2010 
+*  (c) 2010 Timo Schmidt <timo-schmidt@gmx.net>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -24,16 +24,14 @@
 ***************************************************************/
 
 /**
- * Controller for the Category object
+ * Controller for the category object. 
  *
  * @version $Id$
  * @copyright Copyright belongs to the respective authors
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
 
-
 class Tx_TsExtbaselinks_Controller_CategoryController extends Tx_Extbase_MVC_Controller_ActionController {
-	
 	
 	/**
 	 * Shows a browseable list of categories.
@@ -44,10 +42,7 @@ class Tx_TsExtbaselinks_Controller_CategoryController extends Tx_Extbase_MVC_Con
 	public function listAction(Tx_TsExtbaselinks_Domain_Model_Category $parent = null) {
 		//create an instance of the category repository
 		$categoryRepository = new Tx_TsExtbaselinks_Domain_Repository_CategoryRepository();
-
 		$this->view->assign('categories', $categoryRepository->findByParentCategory($parent));
-		
-		
 	}
 	
 }

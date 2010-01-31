@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="start_page" basedir="." default="main">
+<property name="tmp" value="/tmp" />
+<property name="wsname" value="src" />
+<property name="package"  value="${phing.project.name}" override="true" />
+<property name="builddir" value="${tmp}/build/${phing.project.name}" override="true" />
+<property name="srcdir"   value="./src/" override="true" />
+
+<!-- Main Target -->
+<target name="main" description="main target">
+
+  <!-- Create dirs -->
+  <mkdir dir="${builddir}/reports"/>
+  <mkdir dir="${builddir}/reports/coverage"/>
+
+  <!-- PHPUnit -->
+  <exec command="phpunit --log-xml ${builddir}/reports/phpunit.xml  Tests/CategoryTest.php"/>
+
+</target>
+</project>
